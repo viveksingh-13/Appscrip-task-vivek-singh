@@ -9,7 +9,7 @@ export interface product {
   image: string;
 }
 
-const Productlist = ({ products }: { products: product[] }) => {
+const Productlist = ({ products }: any) => {
   return (
     <main className="w-full grid grid-cols-2 md:grid-cols-3 justify-items-center place-content-center gap-2">
       <Head>
